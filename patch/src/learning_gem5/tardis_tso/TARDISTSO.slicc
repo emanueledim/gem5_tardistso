@@ -1,0 +1,6 @@
+protocol "TARDISTSO";
+include "RubySlicc_interfaces.slicc";
+include "TARDISTSO-msg.sm";
+include "TARDISTSO-dma.sm";
+include "TARDISTSO-cache.sm";
+include "TARDISTSO-dir.sm";
