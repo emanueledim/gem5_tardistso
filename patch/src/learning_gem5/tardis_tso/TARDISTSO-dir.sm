@@ -714,7 +714,7 @@ machine(MachineType:Directory, "Directory protocol")
 	}
 
 	transition({IS, IE}, {ShReq, ExReq, UpgReq}){
-		stall;
+		stall;	//TODO: For IS case, to acquire better performance, it should not block simultaneous Shared Requests.
 	}
 
 	transition({ES, SE, EE, ES_m, E_m, SS_m}, {ShReq, ExReq, UpgReq}) {
