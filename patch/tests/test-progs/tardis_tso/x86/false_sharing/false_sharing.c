@@ -3,7 +3,7 @@
 #include <pthread.h>
 
 #define NUM_THREADS 4
-#define ITERATIONS 10000
+#define ITERATIONS 1000
 
 typedef struct {
     volatile int a;

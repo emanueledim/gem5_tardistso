@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 
-#define ARRAY_SIZE   (512*512)  // Dimensione dell'array
+#define ARRAY_SIZE   (256*256)  // Dimensione dell'array
 #define NUM_THREADS  4            // Numero di thread
 #define ITERATIONS   100        // Numero di iterazioni del loop esterno
 

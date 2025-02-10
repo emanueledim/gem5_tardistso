@@ -27,6 +27,7 @@ cd "$DEST_DIR" || exit
 if git rev-parse --verify "$OLD_VERSION" &> /dev/null; then
     echo "Switching to version $OLD_VERSION..."
     git checkout "$OLD_VERSION"
+	pip install -r requirements.txt
 else
     echo "Error: bad version number ($OLD_VERSION not found)."
 fi
