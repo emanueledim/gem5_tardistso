@@ -6,7 +6,7 @@ ARCH=""
 PROTOCOL=""
 WORKLOAD=""
 
-VALID_ARCH=("X86" "ARM" "RISCV")
+VALID_ARCH=("X86" "ARM")
 VALID_PROTOCOL=("TARDISTSO" "MI" "MSI")
 VALID_WORKLOAD=("mfence" "spinlock" "false_sharing" "random_array")
 

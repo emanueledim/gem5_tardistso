@@ -4,7 +4,7 @@ DEST="gem5"
 ARCH=""
 PROTOCOL=""
 
-VALID_ARCH=("X86" "ARM" "RISCV")
+VALID_ARCH=("X86" "ARM")
 VALID_PROTOCOL=("TARDISTSO" "MI" "MSI")
 
 usage() {
