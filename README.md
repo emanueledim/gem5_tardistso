@@ -14,7 +14,7 @@ Basterà eseguire gli script secondo l'ordine enumerato:
 * ./4.run_workload.sh: esegue su X86 (opzione -a), con protocollo TARDISTSO, MSI o MI (opzione -p) uno dei workload di test mfence, spinlock, random_array o false_sharing (opzione -w) (To Be Done: ARM con dmb e threads);
 * ./5.run_ubuntu_boot.sh: esegue un boot completo di linux (richiede dall 2 alle 8 ore) per X86 con TARDIS TSO.
 
-# Risultati benchmark
+# Risultati benchmark X86
 
 | PROTOCOLLO | Mfence | Spinlock | False sharing | Random array |
 |  ---: |  ---: |  ---: |  ---: | ---: |
